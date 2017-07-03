@@ -1,0 +1,86 @@
+App > * + * {
+  margin-top: 20px;
+}
+
+.App {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.AppBar {
+  margin-top: -80px !important;
+  position: fixed !important;
+
+}
+
+.App {
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.App>.jumbotron {
+  flex-basis: 90%;
+  text-align: center;
+}
+
+.authorImg {
+  flex-basis: 33%;
+  max-width: 300px;
+}
+
+#main {
+  display: flex;
+  flex-flow: row wrap ;
+  flex-basis: calc(90% + 20px);
+  justify-content: center;
+  margin: 20px;
+}
+
+#question, #answer, #check {
+  flex-basis: 50px;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#question {
+  flex-grow: 1;
+}
+
+#answer {
+  flex-grow: 4;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.col {
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 1;
+  width: 100%;
+}
+
+#answer > div {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.col > div > span {
+  align-content: space-between;
+  line-height: 90px !important;
+}
+
+.active {
+  background-color: lightgrey !important;
+}
+
+.red {
+  background-color: red !important;
+  color: white !important;
+}
+.green {
+  background-color: green !important;
+  color: white !important;
+}
