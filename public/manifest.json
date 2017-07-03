@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Author Quiz",
+  "name": "Author Quiz- Based on a project from Pluralsight course- 'React Fundamentals'",
   "icons": [
     {
       "src": "favicon.ico",
